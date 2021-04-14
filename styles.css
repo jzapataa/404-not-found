@@ -1,0 +1,127 @@
+@font-face{
+    font-family: 'Inconsolata';
+    src: url("Inconsolata.ttf");
+}
+
+@font-face{
+    font-family: 'Space Mono';
+    src: url("SpaceMono-Regular.ttf");
+}
+
+@font-face{
+    font-family: 'Montserrat';
+    src: url("Montserrat-Regular.ttf");
+}
+
+.not_found{
+    position: absolute;
+    width: 133px;
+    height: 25px;
+    margin-left: 77px;
+    margin-top: 40px;
+
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+
+    color: #333333;
+}
+
+.title{
+    position: absolute;
+    width: 586px;
+    height: 190px;
+    left: 735px;
+    top: 265px;
+
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+
+    /* Gray 1 */
+    color: #333333;
+}
+
+.paragraph{
+    position: absolute;
+    width: 381px;
+    height: 108px;
+    left: 736px;
+    top: 491px;
+    
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    
+    /* Gray 2 */
+    
+    color: #4F4F4F;
+    
+}
+
+.button{
+    position: absolute;
+    width: 216px;
+    height: 68px;
+    margin-left: 740px;
+    margin-top: 663px;
+
+    /* Gray 1 */
+    background: #333333;
+}
+
+.back{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 66px;
+    /* identical to box height */
+
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+
+.imagen{
+    position: absolute;
+    width: 539.22px;
+    margin-left: 5.35%;
+    margin-right: 57.21%;
+    margin-top: 24.54%;
+    margin-bottom: 34.03%;
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 17px;
+    
+    margin-top: 1039px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #BDBDBD;  
+}
